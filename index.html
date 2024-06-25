@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <title>Book Store</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">BookStore</div>
+        <div class="search-bar">
+            <div class="search-container">
+                <select class="category-select">
+                    <option value="all">All Categories</option>
+                    <option value="fiction">Fiction</option>
+                    <option value="non-fiction">Non-Fiction</option>
+                    <option value="sci-fi">Sci-Fi</option>
+                    <option value="biography">Biography</option>
+                    <!-- Add more categories as needed -->
+                </select>
+                <input type="text" placeholder="Search for books...">
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <!--<li><a href="#"><i class='bx bx-home'></i> Home</a></li>
+                <li><a href="#"><i class="fas fa-book"></i> Books</a></li>-->
+                <li><a href="#"><i class='bx bx-shopping-bag'></i></a></li>
+                <li><a href="#"><i class='bx bx-book-heart'></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="book-list">
+            <div class="book">
+                <h3>Book Title 1</h3>
+                <p>Author: Author Name 1</p>
+                <p>Price: $10.99</p>
+                <p>Review: ★★★★☆</p>
+            </div>
+            <div class="book">
+                <h3>Book Title 2</h3>
+                <p>Author: Author Name 2</p>
+                <p>Price: $12.99</p>
+                <p>Review: ★★★★★</p>
+            </div>
+            <!-- Add more books here -->
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 BookStore. All rights reserved.</p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
